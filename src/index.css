@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌿 Thanh scroll mảnh, màu xanh lá */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6; /* màu nền nhạt */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5bbb46; /* xanh lá Tailwind: green-400 */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5bbb46; /* xanh đậm hơn khi hover */
+}
+
